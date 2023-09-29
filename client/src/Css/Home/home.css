@@ -1,0 +1,26 @@
+.home{
+    padding: 1rem 1rem;
+    background-color: #eee;
+}
+.carousel_component{
+   background-color: #eee;
+} 
+.carousel_heading{
+   color:black;
+   padding:0.7rem 2rem;
+   background-color: white;
+  
+}
+.carousel{
+    margin:0.1rem 0;
+    background-color: white;
+}
+.carousel_heading_part{
+    display: flex;
+    background-color: white;
+   align-items: center;
+   padding:0.8rem 0.5rem;
+}
+.view_all_button{
+    margin-left: 100px;
+}

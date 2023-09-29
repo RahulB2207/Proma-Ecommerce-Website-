@@ -1,0 +1,65 @@
+.toolBar{
+    background-color: #002244;
+    height:5rem;
+    position: fixed;
+}
+
+.header_logo{
+    height:4rem;
+    width:10rem;
+}
+.Header_inputField{
+ background-color: white;
+ width:100%;
+ padding:0.06rem 0.1rem;
+ border-radius: 0.3rem;
+ display: flex;
+ align-items: center;
+ margin:0 1rem;
+}
+.search_ICon{
+    color:#002244;
+    padding:0 1rem;
+    margin:0;
+    font-size: unset;
+}
+.login{
+    display: flex;
+    margin:0 1rem;
+}
+.CustomButton{
+    display: flex;
+    margin:0 1.2rem;
+}
+.Buttons{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding:0 1rem;
+}
+.seller{
+    width:8rem;
+}
+.header_login_button{
+    width:6rem;
+    background-color: white;
+}
+.Buttons:hover{
+    cursor: pointer;
+   color:white;
+}
+
+@media only screen and (max-width: 900px) {
+    .CustomButton{
+       flex-direction: column;
+       margin:1rem 0;
+      
+    }
+    .Buttons{
+        margin:0.8rem 0;
+        color:white;
+        float: left;
+        align-items: flex-start;
+        justify-content: flex-start;
+    }
+}

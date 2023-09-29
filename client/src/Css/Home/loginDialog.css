@@ -1,0 +1,53 @@
+.Dialog_Container{
+   height:75vh;
+   width:90vh;
+   display: flex;
+ 
+}
+.login_logo{
+    height:4rem;
+    width:10rem;
+    padding:0.3rem 1rem;
+}
+.Right_part{
+  width:35vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  background-color:#002244; 
+  color:white;
+  padding:0.5rem;
+}
+
+.left_part{
+   display: flex;
+   flex-direction: column;
+   width:55vh;
+   padding:1rem;
+   text-align: center;
+   flex: 1;
+}
+.login_username , .login_password , .privacy_policy , .button1, .button2 ,.create_account, .or{
+    margin-top: 20px;
+    margin-left:10px;
+    margin-Right:10px;
+}
+.button1{
+    background-color: orange;
+    color:white;
+    text-transform: capitalize;
+}
+.button1:hover{
+    background-color: orange;
+    color:white;
+}
+.privacy_policy{
+    font-size: 0.8rem;
+    text-transform: capitalize;
+}
+.create_account span{
+    color:#007fff;
+}
+.create_account span:hover{
+    cursor: pointer;
+}

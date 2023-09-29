@@ -1,0 +1,17 @@
+.Components{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: white;
+    padding:2rem 0;
+}
+.navbar_text{
+    text-align: center;
+    line-height: 0.2rem;
+    font-size: 0.8rem;
+    font-weight:600;
+}
+.navbar_imgs{
+    height:5rem;
+    width:5rem;
+}
+
